@@ -39,7 +39,7 @@ export default defineConfig({
     },
   },
   server: {
-    port: 1888,
+    port: 2000,
     host: '0.0.0.0',
   },
 })
