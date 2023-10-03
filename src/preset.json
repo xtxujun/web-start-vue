@@ -12,13 +12,13 @@
               "id": 2,
               "name": "ChatGPT",
               "url": "https://gpt.luode.vip/",
-              "favicon": "https://raw.githubusercontent.com/Rod0320/web-start-vue/master/public/svg/chatgpt.svg"
+              "favicon": "/svg/chatgpt.svg"
             },
             {
               "id": 6,
               "name": "博客",
               "url": "https://blog.luode.vip/",
-              "favicon": "https://raw.githubusercontent.com/Rod0320/web-start-vue/master/public/svg/blog.svg"
+              "favicon": "/svg/blog.svg"
             },
             {
               "id": 3,
@@ -360,7 +360,7 @@
               "id": 256,
               "name": "ChatGPT",
               "url": "https://gpt.luode.vip/",
-              "favicon": "https://raw.githubusercontent.com/Rod0320/web-start-vue/master/public/svg/chatgpt.svg"
+              "favicon": "/svg/chatgpt.svg"
             },
             {
               "id": 259,
