@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import SettingSelection from './SettingSelection.vue'
 import type { Category, SettingItem, Settings, Theme } from '@/types'
-import { deepClone, iconStyle, search, showLunar, theme } from '@/utils'
+import { deepClone, showLunar, theme } from '@/utils'
 import presetData from '@/preset.json'
 
 // TODO 设置项完善
@@ -93,9 +93,6 @@ function loadData(data: any) {
 
 <template>
   <section v-if="settingStore.isSetting" px="md:32 lg:64">
-    <div my-16 text="16 $text-c-1" italic>
-      设置
-    </div>
     <div flex flex-wrap sm="grid grid-cols-2" justify-between gap-12>
       <SettingSelection
         v-model="settingStore.settings.theme"
@@ -105,22 +102,6 @@ function loadData(data: any) {
         label-field="name"
         value-field="enName"
         :on-update-value="(theme: string) => toggleTheme(theme)"
-      />
-      <SettingSelection
-        v-model="settingStore.settings.search"
-        :title="search.name"
-        :options="search.children"
-        label-field="name"
-        value-field="enName"
-        :on-update-value="(enName: string) => settingStore.setSettings({ search: enName })"
-      />
-      <SettingSelection
-        v-model="settingStore.settings.iconStyle"
-        :title="iconStyle.name"
-        :options="iconStyle.children"
-        label-field="name"
-        value-field="enName"
-        :on-update-value="(enName: string) => settingStore.setSettings({ iconStyle: enName })"
       />
       <SettingSelection
         v-model="settingStore.settings.showLunar"
@@ -135,16 +116,14 @@ function loadData(data: any) {
       <n-button type="primary" secondary @click="resetData">
         重置数据
       </n-button>
+      <n-button type="primary" @click="$router.back()">
+        完成
+      </n-button>
       <n-button type="success" secondary @click="importData">
         导入数据
       </n-button>
       <n-button type="primary" @click="exportData">
         导出数据
-      </n-button>
-    </div>
-    <div my-24 flex-center>
-      <n-button size="large" type="primary" @click="$router.back()">
-        完成
       </n-button>
     </div>
   </section>
