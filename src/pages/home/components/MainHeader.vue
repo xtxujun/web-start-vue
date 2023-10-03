@@ -12,7 +12,7 @@ function getIconClass(routeName: string) {
 </script>
 
 <template>
-  <div px="0 md:24 lg:48" flex items-center justify-between pt-12>
+  <div px="0 md:24 lg:48" flex items-center justify-between pt-12 style="padding-top: 0px;">
     <RouterLink to="/">
       <div text="$primary-c" flex-center>
         <span i-cus-moonset inline-block text-32 transition-300 hover="opacity-80" />

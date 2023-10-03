@@ -4,7 +4,7 @@
 
 <template>
   <!-- 可以在此添加一些样式 -->
-  <div class="doc">
+  <div class="doc" style="width: calc(96%);right: calc(2%);position: absolute;height: 0">
     <slot />
   </div>
 </template>

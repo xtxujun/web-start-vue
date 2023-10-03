@@ -63,9 +63,7 @@ onBeforeUnmount(() => {
       <p>
         <span>{{ date }}</span>
         <span ml-12>{{ week }}</span>
-      </p>
-      <p v-if="settingStore.getSettingValue('showLunar')">
-        {{ lunarDate }}
+        <span ml-12 v-if="settingStore.getSettingValue('showLunar')">{{ lunarDate }}</span>
       </p>
     </div>
   </div>
