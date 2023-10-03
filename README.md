@@ -1,11 +1,13 @@
+<div align="center">
+<img src="./public/favicon.svg" alt="预览"/>
 
-# 简约风格的网址导航页
+<h1 align="center">简约风格的网址导航页</h1>
+
+[演示 Demo](https://luode.vip) / [QQ群 542544997]()
 
 ![Snipaste_2023-05-08_09-15-08](https://cdn.jsdelivr.net/gh/jic999/images/blog/Snip_2023-09-20_21-25-04.png)
 
-<p align='center'>
-<a href="https://ludoe.vip/">在线演示</a>
-</p>
+</div>
 
 ## 已经完成的功能
 
