@@ -64,6 +64,10 @@ npm run dev
 
 # docker容器
 
+# 1.0 版本
+
+- 旧版本
+
 ```shell
 docker pull luode0320/web-start:1.0
 ```
@@ -72,6 +76,20 @@ docker pull luode0320/web-start:1.0
 
 ```shell
 docker run -d -p 2000:2000 luode0320/web-start:1.0
+```
+
+# latest 版本
+
+- 最新版本
+
+```shell
+docker pull luode0320/web-start:latest
+```
+
+启动:
+
+```shell
+docker run -d -p 2000:2000 luode0320/web-start:latest
 ```
 
 
