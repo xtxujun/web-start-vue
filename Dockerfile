@@ -19,4 +19,4 @@ RUN npm install
 RUN npm run build
 
 # 在每次启动时从 GitHub 更新文件
-CMD ["sh", "-c", "git pull origin main && npm run preview"]
+CMD ["sh", "-c", "git pull origin main && npm install && npm run build && npm run preview"]
