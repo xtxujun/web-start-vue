@@ -17,7 +17,7 @@ jobs:
     # 步骤
     steps:
       - uses: actions/checkout@v2 # 相当于执行git pull操作，以获取最新的代码
-          
+
       - name: 打包镜像, 上传 Docker Hub # 描述词, 无实际意义
         run: | # 当前服务器依次执行下面的命令
           docker login -u ${{ secrets.REGISTRY_USERNAME }} -p ${{ secrets.REGISTRY_PASSWORD }}
@@ -31,7 +31,7 @@ jobs:
           username: root
           password: ${{ secrets.REMOTE_PASSWORD }}
           script: | # 远程服务器依次执行下面的命令, 删除容器, 删除镜像, 拉取最新镜像, 启动blog容器
-            docker stop web 
+            docker stop web
             docker rm web
             docker rmi luode0320/web-start:latest
             docker pull luode0320/web-start:latest

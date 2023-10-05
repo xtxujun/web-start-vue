@@ -1,22 +1,19 @@
+# 注意: 此 Dockerfile 配合GitHub action自动化配置, GitHub action自动化配置文件在 .github/workflows/main.yml
+# 如果手动执行此dockerfile, 注意将不必要的文件夹删除, 例如.idea, .github, 依赖等
+
 # 使用一个基础的Node.js镜像
-FROM node:18-alpine AS base
+FROM node:18-alpine
 
-# 安装 Git
-RUN apk update && apk add --no-cache git
+# 复制当前目录所有文件到 /aap下面
+COPY . /app
 
-# 设置 Git 配置
-RUN git config --global user.email "1846555387@qq.com"
-RUN git config --global user.name "luode"
-
-# 克隆代码库
-RUN git clone https://github.com/Rod0320/web-start-vue.git /app
-
-# 切换到代码库目录
+# 设置主目录为 / app
 WORKDIR /app
 
 # 安装依赖
 RUN npm install
+# 打包
 RUN npm run build
 
 # 在每次启动时从 GitHub 更新文件
-CMD ["sh", "-c", "git pull origin main && npm install && npm run build && npm run preview"]
+CMD ["sh", "-c", "npm run preview"]
