@@ -35,4 +35,4 @@ jobs:
             docker rm web
             docker rmi luode0320/web-start:latest
             docker pull luode0320/web-start:latest
-            docker run -d -p 2000:2000 --name web luode0320/web-start:latest
+            docker run --restart=always --name web  -d -p 2000:2000 luode0320/web-start:latest
