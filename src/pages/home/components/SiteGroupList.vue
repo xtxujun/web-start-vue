@@ -38,6 +38,7 @@ const renderStore = useRenderStore()
         type: 'transition-group',
       }"
       v-bind="draggableOptions"
+      style="display: flex;flex-direction: column;"
       @start="handleStart"
       @end="handleEnd"
     >
@@ -46,7 +47,7 @@ const renderStore = useRenderStore()
           <!-- Group header -->
           <div
             :class="{ 'cursor-pointer bg-$site-hover-c': settingStore.isSetting, 'mb-12 w-full': isXsScreen }"
-            shrink-0 w-72
+            shrink-0 w-72 style="width: 12%;"
             @click="handleGroupClick(i)"
           >
             <div
@@ -56,6 +57,7 @@ const renderStore = useRenderStore()
                 'hover:bg-$site-hover-c': settingStore.isSetting,
               }"
               flex items-center justify-between px-6 h-40
+              style="display: flex;justify-content: center;align-items: center;"
             >
               <div
                 :class="{ 'group__name pl-16 py-4': isXsScreen }"
@@ -81,7 +83,7 @@ const renderStore = useRenderStore()
               :component-data="{
                 tag: 'div',
                 type: 'transition-group',
-                class: 'grid grid-cols-3 gap-x-8 gap-y-12 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6',
+                class: 'grid grid-cols-3 gap-x-8 gap-y-12 md:grid-cols-4 lg:grid-cols-5',
               }"
               v-bind="draggableOptions"
               @start="handleStart"
@@ -89,7 +91,6 @@ const renderStore = useRenderStore()
             >
               <template #item="{ element: site, index }: { element: Site, index: number }">
                 <div>
-                  <!-- Site item -->
                   <a
                     class="site__handle"
                     :class="{ 'site--setting': settingStore.isSetting, 'hover:bg-$site-hover-c': !settingStore.isDragging }"

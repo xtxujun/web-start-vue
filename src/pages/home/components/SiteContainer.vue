@@ -5,9 +5,9 @@ import SiteModal from './SiteModal.vue'
 </script>
 
 <template>
-  <div px="md:32 lg:64" text="$text-c-1" z-8>
+  <div text="$text-c-1" z-8>
     <SiteNavBar />
-    <SiteGroupList py-28 />
+    <SiteGroupList py-28 style="margin-left: auto; margin-right: auto;" />
     <SiteModal />
   </div>
 </template>

@@ -34,14 +34,8 @@
             },
             {
               "id": 4,
-              "name": "Docker Hub",
+              "name": "Docker",
               "url": "https://hub.docker.com/",
-              "favicon": ""
-            },
-            {
-              "id": 5,
-              "name": "LeetCode",
-              "url": "https://leetcode.cn/",
               "favicon": ""
             }
           ]
@@ -79,12 +73,6 @@
               "name": "虎扑",
               "url": "https://bbs.hupu.com/",
               "favicon": ""
-            },
-            {
-              "id": 12,
-              "name": "推特",
-              "url": "https://twitter.com/",
-              "favicon": ""
             }
           ]
         },
@@ -120,12 +108,6 @@
               "id": 19,
               "name": "央视频",
               "url": "https://www.yangshipin.cn/#/",
-              "favicon": ""
-            },
-            {
-              "id": 21,
-              "name": "YouTube",
-              "url": "https://www.youtube.com/",
               "favicon": ""
             }
           ]
@@ -163,12 +145,6 @@
               "name": "Twitch",
               "url": "https://www.twitch.tv",
               "favicon": ""
-            },
-            {
-              "id": 71,
-              "name": "Blgo",
-              "url": "https://www.bigo.tv/cn/",
-              "favicon": ""
             }
           ]
         },
@@ -204,12 +180,6 @@
               "id": 34,
               "name": "网易邮箱",
               "url": "https://mail.163.com/",
-              "favicon": ""
-            },
-            {
-              "id": 35,
-              "name": "雅虎邮箱",
-              "url": "https://mail.yahoo.com/",
               "favicon": ""
             }
           ]
@@ -253,12 +223,6 @@
               "name": "StackOverflow",
               "url": "https://stackoverflow.com/",
               "favicon": ""
-            },
-            {
-              "id": 232,
-              "name": "SegmentFault",
-              "url": "https://segmentfault.com/",
-              "favicon": ""
             }
           ]
         },
@@ -294,12 +258,6 @@
               "id": 241,
               "name": "LeetCode",
               "url": "https://leetcode.cn/",
-              "favicon": ""
-            },
-            {
-              "id": 242,
-              "name": "牛客网",
-              "url": "https://www.nowcoder.com/",
               "favicon": ""
             }
           ]
@@ -337,12 +295,6 @@
               "name": "hosteons",
               "url": "https://hosteons.com/",
               "favicon": ""
-            },
-            {
-              "id": 248,
-              "name": "Vultr",
-              "url": "https://www.vultr.com/",
-              "favicon": ""
             }
           ]
         },
@@ -378,12 +330,6 @@
               "id": 260,
               "name": "图标库",
               "url": "https://www.iconfont.cn/",
-              "favicon": ""
-            },
-            {
-              "id": 258,
-              "name": "兔子云vpn",
-              "url": "https://geek.rrabits.com/#/register?code=Pb8stzS3",
               "favicon": ""
             }
           ]
@@ -421,40 +367,8 @@
               "name": "美团技术团队",
               "url": "https://tech.meituan.com/",
               "favicon": ""
-            },
-            {
-              "id": 268,
-              "name": "伴鱼技术团队",
-              "url": "https://tech.ipalfish.com/blog/",
-              "favicon": ""
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": 1696344804251,
-      "name": "收藏",
-      "groupList": [
-        {
-          "id": 1696344822243,
-          "name": "分组",
-          "siteList": []
-        },
-        {
-          "id": 1696344842429,
-          "name": "分组",
-          "siteList": []
-        },
-        {
-          "id": 1696344846193,
-          "name": "分组",
-          "siteList": []
-        },
-        {
-          "id": 1696344847730,
-          "name": "分组",
-          "siteList": []
         }
       ]
     }

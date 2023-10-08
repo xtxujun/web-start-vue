@@ -3,10 +3,12 @@
 }
 html {
   color: var(--text-c);
-  background-color: var(--bg-c);
+  background-color: #f3f4f6;
   transition: background 0.8s;
 }
-
+html, body {
+  height: 100vh;
+}
 ::-webkit-scrollbar {
   width: 0px;
   height: 9px;

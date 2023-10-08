@@ -49,7 +49,7 @@ const NaiveProviderContent = defineComponent({
     :locale="zhCN"
     :date-locale="dateZhCN"
     preflight-style-disabled
-    style="position: relative;"
+    style="position: relative;height: 100vh;"
   >
     <n-dialog-provider>
       <n-notification-provider>
