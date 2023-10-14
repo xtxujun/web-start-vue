@@ -151,6 +151,7 @@ function handleLeave() {
 }
 
 function handleFocus(_: Event) {
+  searchInputRef.value?.select()
   handleInput(new Event('input'))
 }
 
