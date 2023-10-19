@@ -5,7 +5,7 @@
 
 [演示 Demo](https://luode.vip) / [QQ群 542544997]()
 
-![Snipaste_2023-05-08_09-15-08](https://cdn.jsdelivr.net/gh/jic999/images/blog/Snip_2023-09-20_21-25-04.png)
+![Snipaste_2023-05-08_09-15-08](public/png/QQ截图20231019212432.png)
 
 </div>
 
