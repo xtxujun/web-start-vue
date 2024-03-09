@@ -70,8 +70,8 @@
             },
             {
               "id": 14,
-              "name": "虎扑",
-              "url": "https://bbs.hupu.com/",
+              "name": "推特",
+              "url": "https://twitter.com/",
               "favicon": ""
             }
           ]
@@ -99,15 +99,15 @@
               "favicon": ""
             },
             {
-              "id": 20,
-              "name": "哔哩哔哩",
-              "url": "https://www.bilibili.com/",
+              "id": 19,
+              "name": "阿里盘搜",
+              "url": "https://www.alipansou.com/",
               "favicon": ""
             },
             {
-              "id": 19,
-              "name": "央视频",
-              "url": "https://www.yangshipin.cn/#/",
+              "id": 20,
+              "name": "磁力猫",
+              "url": "clm.la",
               "favicon": ""
             }
           ]
@@ -129,21 +129,21 @@
               "favicon": ""
             },
             {
-              "id": 69,
-              "name": "CCTV直播",
-              "url": "https://tv.cctv.com/live/",
-              "favicon": ""
-            },
-            {
               "id": 68,
               "name": "抖音直播",
               "url": "https://live.douyin.com/",
               "favicon": ""
             },
             {
+              "id": 69,
+              "name": "哔哩哔哩",
+              "url": "https://www.bilibili.com/",
+              "favicon": ""
+            },
+            {
               "id": 70,
-              "name": "Twitch",
-              "url": "https://www.twitch.tv",
+              "name": "CCTV直播",
+              "url": "https://tv.cctv.com/live/",
               "favicon": ""
             }
           ]
@@ -178,8 +178,8 @@
             },
             {
               "id": 34,
-              "name": "网易邮箱",
-              "url": "https://mail.163.com/",
+              "name": "临时邮箱",
+              "url": "https://temp-mail.org/zh/",
               "favicon": ""
             }
           ]
