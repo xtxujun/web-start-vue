@@ -22,9 +22,9 @@
             },
             {
               "id": 3,
-              "name": "百度翻译",
-              "url": "https://fanyi.baidu.com/",
-              "favicon": ""
+              "name": "比特币",
+              "url": "https://btc.luode.vip/",
+              "favicon": "/svg/btc.svg"
             },
             {
               "id": 3,
@@ -34,8 +34,8 @@
             },
             {
               "id": 4,
-              "name": "Docker",
-              "url": "https://hub.docker.com/",
+              "name": "百度翻译",
+              "url": "https://fanyi.baidu.com/",
               "favicon": ""
             }
           ]
@@ -250,7 +250,7 @@
             },
             {
               "id": 240,
-              "name": "Docker Hub",
+              "name": "Docker",
               "url": "https://hub.docker.com/",
               "favicon": ""
             },
