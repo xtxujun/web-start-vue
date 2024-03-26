@@ -41,6 +41,42 @@
           ]
         },
         {
+          "id": 29,
+          "name": "常用",
+          "siteList": [
+            {
+              "id": 30,
+              "name": "QQ邮箱",
+              "url": "https://mail.qq.com/",
+              "favicon": ""
+            },
+            {
+              "id": 31,
+              "name": "谷歌邮箱",
+              "url": "https://mail.google.com/",
+              "favicon": ""
+            },
+            {
+              "id": 32,
+              "name": "阿里云盘",
+              "url": "https://www.aliyundrive.com/",
+              "favicon": ""
+            },
+            {
+              "id": 33,
+              "name": "Docker",
+              "url": "https://hub.docker.com/",
+              "favicon": ""
+            },
+            {
+              "id": 34,
+              "name": "临时邮箱",
+              "url": "https://temp-mail.org/zh/",
+              "favicon": ""
+            }
+          ]
+        },
+        {
           "id": 8,
           "name": "社交",
           "siteList": [
@@ -144,42 +180,6 @@
               "id": 70,
               "name": "CCTV直播",
               "url": "https://tv.cctv.com/live/",
-              "favicon": ""
-            }
-          ]
-        },
-        {
-          "id": 29,
-          "name": "邮箱",
-          "siteList": [
-            {
-              "id": 30,
-              "name": "QQ邮箱",
-              "url": "https://mail.qq.com/",
-              "favicon": ""
-            },
-            {
-              "id": 31,
-              "name": "谷歌邮箱",
-              "url": "https://mail.google.com/",
-              "favicon": ""
-            },
-            {
-              "id": 32,
-              "name": "网易邮箱",
-              "url": "https://mail.163.com/",
-              "favicon": ""
-            },
-            {
-              "id": 33,
-              "name": "Apple邮箱",
-              "url": "https://www.icloud.com.cn/mail/login",
-              "favicon": ""
-            },
-            {
-              "id": 34,
-              "name": "临时邮箱",
-              "url": "https://temp-mail.org/zh/",
               "favicon": ""
             }
           ]
