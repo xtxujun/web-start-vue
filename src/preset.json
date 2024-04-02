@@ -34,9 +34,9 @@
             },
             {
               "id": 4,
-              "name": "web-sql",
+              "name": "SQL",
               "url": "https://sql.luode.vip/",
-              "favicon": ""
+              "favicon": "/svg/db.svg"
             }
           ]
         },
