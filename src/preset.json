@@ -16,9 +16,9 @@
             },
             {
               "id": 2,
-              "name": "ChatGPT",
-              "url": "https://gpt.luode.vip/",
-              "favicon": "/svg/chatgpt.svg"
+              "name": "Docker",
+              "url": "https://hub.docker.com/u/luode0320",
+              "favicon": ""
             },
             {
               "id": 6,
@@ -34,9 +34,9 @@
             },
             {
               "id": 4,
-              "name": "SQL",
-              "url": "https://sql.luode.vip/",
-              "favicon": "/svg/db.svg"
+              "name": "ChatGPT",
+              "url": "https://gpt.luode.vip/",
+              "favicon": "/svg/chatgpt.svg"
             }
           ]
         },
@@ -64,8 +64,8 @@
             },
             {
               "id": 33,
-              "name": "Docker",
-              "url": "https://hub.docker.com/",
+              "name": "在线工具",
+              "url": "https://tool.lu/",
               "favicon": ""
             },
             {
