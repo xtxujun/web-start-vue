@@ -3,7 +3,7 @@
 
 <h1 align="center">简约风格的网址导航页</h1>
 
-[演示 Demo](https://luode.vip) / [QQ群 542544997]()
+[演示 Demo](https://www.luode.vip) / [QQ群 542544997]()
 
 ![Snipaste_2023-05-08_09-15-08](public/png/QQ截图20231019212432.png)
 
