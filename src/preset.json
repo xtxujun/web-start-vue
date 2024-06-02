@@ -34,9 +34,9 @@
             },
             {
               "id": 4,
-              "name": "ChatGPT",
-              "url": "https://gpt.luode.vip/",
-              "favicon": "/svg/chatgpt.svg"
+              "name": "通义千问",
+              "url": "https://tongyi.aliyun.com/qianwen/",
+              "favicon": ""
             }
           ]
         },
