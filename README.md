@@ -98,6 +98,6 @@ docker run -d \
 --restart=always \
 --name web  \
 -p 2000:2000 \
--v /usr/loacl/src/preset.json:/app/src/preset.json
+-v /usr/local/src/web/preset.json:/app/src/preset.json
 luode0320/web-start:latest
 ```

@@ -6,6 +6,7 @@ FROM node:18-alpine
 
 # 复制当前目录所有文件到 /aap下面
 COPY . /app
+COPY src/preset.json /var/preset.json
 
 # 设置主目录为 / app
 WORKDIR /app
@@ -16,4 +17,4 @@ RUN npm install
 RUN npm run build
 
 # 在每次启动时从 GitHub 更新文件
-CMD ["sh", "-c", "npm run preview"]
+CMD ["sh", "-c", "cp /var/preset.json /app/src/preset.json && npm run preview"]
