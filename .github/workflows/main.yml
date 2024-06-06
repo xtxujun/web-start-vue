@@ -22,15 +22,14 @@ jobs:
           docker login -u luode0320 -p ${{ secrets.REGISTRY_PASSWORD }}
           docker build -t luode0320/web-start:latest .
           docker push luode0320/web-start:latest
-          docker tag luode0320/web-start:latest ${{ secrets.REMOTE_HOST }}:15555/web-start:latest
+          docker tag luode0320/web-start:latest ${{ secrets.REMOTE_HOST }}/web-start:latest
           sudo tee /etc/docker/daemon.json <<-'EOF'
           {
-            "insecure-registries": ["${{ secrets.REMOTE_HOST }}:15555"]
+            "insecure-registries": ["${{ secrets.REMOTE_HOST }}"]
           }
           EOF
-          systemctl daemon-reload
           systemctl restart docker
-          docker push ${{ secrets.REMOTE_HOST }}:15555/web-start:latest
+          docker push ${{ secrets.REMOTE_HOST }}/web-start:latest
 
       - name: 登录服务器, 执行脚本 # 描述词, 无实际意义
         uses: appleboy/ssh-action@master # 通过SSH登录到远程服务器
@@ -42,9 +41,9 @@ jobs:
           script: | # 远程服务器依次执行下面的命令, 删除容器, 删除镜像, 拉取本地最新镜像, 调整镜像名称, 删除本地镜像, 启动容器
             docker rm -f web
             docker rmi luode0320/web-start:latest
-            docker pull ${{ secrets.REMOTE_HOST }}:15555/web-start:latest
-            docker tag ${{ secrets.REMOTE_HOST }}:15555/web-start:latest luode0320/web-start:latest
-            docker rmi ${{ secrets.REMOTE_HOST }}:15555/web-start:latest
+            docker pull ${{ secrets.REMOTE_HOST }}/web-start:latest
+            docker tag ${{ secrets.REMOTE_HOST }}/web-start:latest luode0320/web-start:latest
+            docker rmi ${{ secrets.REMOTE_HOST }}/web-start:latest
             docker run -d \
             --restart=always \
             --name web \
