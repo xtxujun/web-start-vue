@@ -25,7 +25,7 @@ jobs:
           docker tag luode0320/web-start:latest ${{ secrets.REMOTE_HOST }}:15555/web-start:latest
           sudo tee /etc/docker/daemon.json <<-'EOF'
           {
-            "insecure-registries": ["${{ secrets.REMOTE_HOST }}:5555"]
+            "insecure-registries": ["${{ secrets.REMOTE_HOST }}:15555"]
           }
           EOF
           systemctl daemon-reload
