@@ -23,6 +23,13 @@ jobs:
           docker build -t luode0320/web-start:latest .
           docker push luode0320/web-start:latest
           docker tag luode0320/web-start:latest ${{ secrets.REMOTE_HOST }}:15555/web-start:latest
+          sudo tee /etc/docker/daemon.json <<-'EOF'
+          {
+            "insecure-registries": ["${{ secrets.REMOTE_HOST }}:5555"]
+          }
+          EOF
+          systemctl daemon-reload
+          systemctl restart docker
           docker push ${{ secrets.REMOTE_HOST }}:15555/web-start:latest
 
       - name: 登录服务器, 执行脚本 # 描述词, 无实际意义
