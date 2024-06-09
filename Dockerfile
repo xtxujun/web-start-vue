@@ -17,4 +17,4 @@ RUN npm install
 RUN npm run build
 
 # 在每次启动时从 GitHub 更新文件
-CMD ["sh", "-c", "cp  -f /var/preset.json /app/src/preset.json && npm run preview"]
+CMD ["sh", "-c", "rm /app/src/preset.json && cp /var/preset.json /app/src/preset.json && npm run preview"]
