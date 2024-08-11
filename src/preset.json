@@ -46,6 +46,12 @@
           "siteList": [
             {
               "id": 30,
+              "name": "Gitee",
+              "url": "https://gitee.com/",
+              "favicon": ""
+            },
+            {
+              "id": 30,
               "name": "QQ邮箱",
               "url": "https://mail.qq.com/",
               "favicon": ""
@@ -54,12 +60,6 @@
               "id": 31,
               "name": "谷歌邮箱",
               "url": "https://mail.google.com/",
-              "favicon": ""
-            },
-            {
-              "id": 32,
-              "name": "阿里云盘",
-              "url": "https://www.aliyundrive.com/",
               "favicon": ""
             },
             {
