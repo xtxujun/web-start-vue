@@ -9,16 +9,25 @@
           "name": "常用",
           "siteList": [
             {
-              "id": 3,
-              "name": "GitHub",
-              "url": "https://github.com/",
-              "favicon": ""
+              "id": 1730221198177,
+              "name": "ChatGPT",
+              "url": "https://chatgpt.com/",
+              "favicon": "",
+              "bgColor": ""
+            },
+            {
+              "id": 4,
+              "name": "通义千问",
+              "url": "https://tongyi.aliyun.com/qianwen/",
+              "favicon": "",
+              "bgColor": "#ea348e"
             },
             {
               "id": 2,
               "name": "Docker",
               "url": "https://hub.docker.com/u/luode0320",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#054c01"
             },
             {
               "id": 6,
@@ -31,12 +40,6 @@
               "name": "比特币",
               "url": "https://btc.luode.vip/",
               "favicon": "/svg/btc.svg"
-            },
-            {
-              "id": 4,
-              "name": "通义千问",
-              "url": "https://tongyi.aliyun.com/qianwen/",
-              "favicon": ""
             }
           ]
         },
@@ -45,34 +48,79 @@
           "name": "常用",
           "siteList": [
             {
-              "id": 30,
+              "id": 3,
+              "name": "GitHub",
+              "url": "https://github.com/",
+              "favicon": ""
+            },
+            {
+              "id": 66,
               "name": "Gitee",
               "url": "https://gitee.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#7a6128"
             },
             {
               "id": 30,
               "name": "QQ邮箱",
               "url": "https://mail.qq.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#5d3a33"
             },
             {
               "id": 31,
               "name": "谷歌邮箱",
               "url": "https://mail.google.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#720e2c"
             },
+            {
+              "id": 32,
+              "name": "阿里云盘",
+              "url": "https://www.aliyundrive.com/",
+              "favicon": "",
+              "bgColor": "#4901f4"
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "name": "工具",
+          "siteList": [
             {
               "id": 33,
               "name": "在线工具",
               "url": "https://tool.lu/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#588019"
             },
             {
               "id": 34,
               "name": "临时邮箱",
               "url": "https://temp-mail.org/zh/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#330d3d"
+            },
+            {
+              "id": 67,
+              "name": "蓝奏云",
+              "url": "https://www.lanzoui.com/",
+              "favicon": "",
+              "bgColor": "#2c0aa9"
+            },
+            {
+              "id": 70,
+              "name": "虚拟号码",
+              "url": "https://sms-activate.org/cn",
+              "favicon": "",
+              "bgColor": "#056a92"
+            },
+            {
+              "id": 68,
+              "name": "ProcessOn",
+              "url": "https://processon.com/",
+              "favicon": "",
+              "bgColor": "#2fae79"
             }
           ]
         },
@@ -84,31 +132,36 @@
               "id": 9,
               "name": "微博",
               "url": "https://weibo.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#342123"
             },
             {
               "id": 10,
               "name": "知乎",
               "url": "https://www.zhihu.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#4c720a"
             },
             {
               "id": 11,
               "name": "贴吧",
               "url": "https://tieba.baidu.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#323209"
             },
             {
               "id": 13,
               "name": "小红书",
               "url": "https://www.xiaohongshu.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#c05701"
             },
             {
-              "id": 14,
-              "name": "推特",
-              "url": "https://twitter.com/",
-              "favicon": ""
+              "id": 69,
+              "name": "哔哩哔哩",
+              "url": "https://www.bilibili.com/",
+              "favicon": "",
+              "bgColor": "#367c24"
             }
           ]
         },
@@ -120,67 +173,36 @@
               "id": 16,
               "name": "腾讯视频",
               "url": "https://v.qq.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#015132"
             },
             {
               "id": 17,
               "name": "爱奇艺",
               "url": "https://www.iqiyi.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#46651b"
             },
             {
               "id": 18,
               "name": "优酷",
               "url": "https://www.youku.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#0c0756"
             },
             {
               "id": 19,
               "name": "阿里盘搜",
               "url": "https://www.alipansou.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#613b2d"
             },
             {
               "id": 20,
               "name": "磁力猫",
               "url": "https://clm.la/",
-              "favicon": ""
-            }
-          ]
-        },
-        {
-          "id": 65,
-          "name": "直播",
-          "siteList": [
-            {
-              "id": 66,
-              "name": "斗鱼",
-              "url": "https://www.douyu.com/",
-              "favicon": ""
-            },
-            {
-              "id": 67,
-              "name": "虎牙直播",
-              "url": "https://www.huya.com/",
-              "favicon": ""
-            },
-            {
-              "id": 68,
-              "name": "抖音直播",
-              "url": "https://live.douyin.com/",
-              "favicon": ""
-            },
-            {
-              "id": 69,
-              "name": "哔哩哔哩",
-              "url": "https://www.bilibili.com/",
-              "favicon": ""
-            },
-            {
-              "id": 70,
-              "name": "CCTV直播",
-              "url": "https://tv.cctv.com/live/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#251001"
             }
           ]
         }
@@ -198,31 +220,36 @@
               "id": 231,
               "name": "稀土掘金",
               "url": "https://juejin.cn/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#13c032"
             },
             {
               "id": 235,
               "name": "CSDN",
               "url": "https://www.csdn.net/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#262708"
             },
             {
               "id": 233,
               "name": "开源中国",
               "url": "https://www.oschina.net/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#1f1315"
             },
             {
               "id": 234,
               "name": "LearnKu",
               "url": "https://learnku.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#4125c4"
             },
             {
               "id": 230,
               "name": "StackOverflow",
               "url": "https://stackoverflow.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#33a178"
             }
           ]
         },
@@ -240,25 +267,29 @@
               "id": 238,
               "name": "Gitee",
               "url": "https://gitee.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#f57a30"
             },
             {
               "id": 239,
               "name": "GitLab",
               "url": "https://gitlab.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#092677"
             },
             {
               "id": 240,
               "name": "Docker",
               "url": "https://hub.docker.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#cc2946"
             },
             {
               "id": 241,
               "name": "LeetCode",
               "url": "https://leetcode.cn/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#6b8945"
             }
           ]
         },
@@ -270,31 +301,36 @@
               "id": 246,
               "name": "NameSilo",
               "url": "https://www.namesilo.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#bd7a2a"
             },
             {
               "id": 249,
               "name": "Cloudflare",
               "url": "https://www.cloudflare.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#3b0d19"
             },
             {
               "id": 244,
               "name": "阿里云",
               "url": "https://cn.aliyun.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#92522e"
             },
             {
               "id": 245,
               "name": "腾讯云",
               "url": "https://cloud.tencent.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#812f23"
             },
             {
               "id": 247,
               "name": "hosteons",
               "url": "https://hosteons.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#6b350b"
             }
           ]
         },
@@ -306,31 +342,36 @@
               "id": 255,
               "name": "ProcessOn",
               "url": "https://processon.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#531c10"
             },
             {
               "id": 256,
               "name": "ChatGPT",
-              "url": "https://gpt.luode.vip/",
-              "favicon": "/svg/chatgpt.svg"
+              "url": "https://chatgpt.com/",
+              "favicon": "",
+              "bgColor": ""
             },
             {
               "id": 257,
               "name": "虚拟号码",
               "url": "https://sms-activate.org/cn",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#37b752"
             },
             {
               "id": 258,
               "name": "临时邮箱",
               "url": "https://temp-mail.org/zh/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#3c1d76"
             },
             {
               "id": 259,
               "name": "在线工具",
               "url": "https://tool.lu/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#1fc715"
             }
           ]
         },
@@ -342,31 +383,36 @@
               "id": 265,
               "name": "菜鸟教程",
               "url": "https://www.runoob.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#2a196f"
             },
             {
               "id": 266,
               "name": "菜鸟鸭",
               "url": "https://www.cainiaoya.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#db041b"
             },
             {
               "id": 269,
               "name": "博客园",
               "url": "https://www.cnblogs.com/cmt",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#0d350d"
             },
             {
               "id": 270,
               "name": "阿里巴巴镜像站",
               "url": "https://developer.aliyun.com/mirror/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#4f0572"
             },
             {
               "id": 267,
               "name": "美团技术团队",
               "url": "https://tech.meituan.com/",
-              "favicon": ""
+              "favicon": "",
+              "bgColor": "#03b878"
             }
           ]
         }
@@ -374,9 +420,9 @@
     }
   ],
   "settings": {
-    "theme": "MoonWhite",
-    "search": "Bing",
     "iconStyle": "Vivid",
-    "showLunar": "Show"
+    "search": "Bing",
+    "showLunar": "Show",
+    "theme": "MoonWhite"
   }
 }
