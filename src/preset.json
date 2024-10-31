@@ -3346,18 +3346,10 @@
             ]
         }
     ], 
-    "settings": {
-        "iconStyle": "Vivid", 
-        "language": "System", 
-        "linkStrategy": "newTab", 
-        "search": "Bing", 
-        "showDate": "Show", 
-        "showFooter": "Show", 
-        "showLunar": "Show", 
-        "showSecond": "Show", 
-        "showTime": "Show", 
-        "tagMode": "Concise", 
-        "theme": "MoonWhite", 
-        "websitePreference": "Customize"
-    }
+  "settings": {
+    "iconStyle": "Vivid",
+    "search": "Bing",
+    "showLunar": "Show",
+    "theme": "MoonWhite"
+  }
 }
